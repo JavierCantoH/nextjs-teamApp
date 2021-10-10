@@ -16,6 +16,7 @@ const NotFound = () => {
             // router.go(1)
             router.push('/')
         }, 10000)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     return (
