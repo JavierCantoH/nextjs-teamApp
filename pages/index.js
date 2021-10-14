@@ -11,8 +11,8 @@ export default function Home() {
       </Head>
       <div>
         <h1 className={styles.title}>Homepage</h1>
-        <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi impedit suscipit architecto, odio inventore nostrum non neque dicta. Quam magni accusantium culpa distinctio tempore iure accusamus, dolorem nobis odit.</p>
-        <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi impedit suscipit architecto, odio inventore nostrum non neque dicta. Quam magni accusantium culpa distinctio tempore iure accusamus, dolorem nobis odit.</p>
+        <p className={styles.text}>Welcome to the page used by the Head Coach of borregos Puebla. </p>
+        <p className={styles.text}>Before game date, the Head Coach edit the player list to let his team know which players are required for the next match.</p>
         <Link href="/players/">
           <a className={styles.btn}>See Player Listing</a>
         </Link>
